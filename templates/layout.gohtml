@@ -1,0 +1,12 @@
+{{ define "layout" }}
+{{ template "header.gohtml" .}}
+<h1>Hello {{ .Name }}</h1>
+{{ template "footer.gohtml" }}
+{{ end }}
+
+{{ define "test" }}
+{{ template "header.gohtml" .}}
+<h1>Hello test</h1>
+{{ template "footer.gohtml" }}
+{{ end }}
+
